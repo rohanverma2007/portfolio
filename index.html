@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rohan portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Iosevka:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Iosevka', monospace;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 4rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 0.95rem;
+        }
+
+        nav {
+            margin-top: 1.5rem;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            margin-right: 2rem;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #fff;
+            text-transform: lowercase;
+        }
+
+        .honors {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #1a1a1a;
+        }
+
+        .honors:last-child {
+            border-bottom: none;
+        }
+
+        .honors h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .honors p {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .honors a {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .honors a:hover {
+            color: #fff;
+        }
+
+        .project {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #1a1a1a;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        .project h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .project p {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project a {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .project a:hover {
+            color: #fff;
+        }
+
+        .titles {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #1a1a1a;
+        }
+
+        .titles:last-child {
+            border-bottom: none;
+        }
+
+        .titles h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .titles p {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .titles a {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .titles a:hover {
+            color: #fff;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #333;
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: #888;
+            text-decoration: none;
+            margin-right: 1.5rem;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            nav a {
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>rohan verma</h1>
+            <p class="subtitle">programmer / systems / robotics</p>
+            <nav>
+                <a href="#work">work</a>
+                <a href="#titles">titles</a>
+                <a href="#honors">honors</a>
+                <a href="#about">about</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </header>
+
+        <section id="work">
+            <h2>// work</h2>
+            
+            <div class="project">
+                <h3>navigator panel</h3>
+                <p>a minimal, lightweight web dashboard for your self-hosted services</p>
+                <a href="https://navigator.rsap.sh/">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>tidal waybar</h3>
+                <p>music player in a status bar implementation</p>
+                <a href="https://github.com/rohanverma2007/tidal-waybar">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>linux dotfiles</h3>
+                <p>designed a custom monochrome theme + colorscheme for linux and had gotten 150+ upvotes on reddit</p>
+                <a href="https://github.com/rohanverma2007/dotfiles">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>capybara mod</h3>
+                <p>programmed in java, added an animal and a couple mechanics to the game 'minecraft', garnered 634k downloads on curseforge, and sponsored by bisecthosting</p>
+                <a href="https://github.com/rohanverma2007/Forge-Capybara">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>kebabs delight mod</h3>
+                <p>programmed in java, addon to a project called 'farmers delight' for the game 'minecraft', received 32k downloads</p>
+                <a href="https://github.com/rohanverma2007/Kebabs-Delight">view →</a>
+            </div>
+            
+            <div class="project">
+                <h3>legacy console sounds mod</h3>
+                <p>a continuation of a old project, added the legacy console sounds back to minecraft, achieved 31k downloads</p>
+                <a href="https://github.com/rohanverma2007/Legacy-Console-Sounds">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>enhanced hoppers mod</h3>
+                <p>speeds up hoppers in the game 'minecraft' by increasing the tick rate of the hopper block</p>
+                <a href="https://modrinth.com/mod/speedy-hoppers">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>f-block student it helpdesk</h3>
+                <p>an initative at american school of dubai (as project lead) to expand the it helpdesk to different parts of the campus, brings it support to as much of the campus as possible</p>
+            </div>
+
+            <div class="project">
+                <h3>fetchasd</h3>
+                <p>contributor to a school-led project that sets up a on site file hosting server (ongoing project)</p>
+                <a href="https://github.com/fetchasd">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>vex robotics mars rover</h3>
+                <p>the robot was able to traverse different types of terrains and grab samples with it's 360 degree robotic arm and put it in its built in basket.</p>
+                <a href="https://docs.google.com/document/d/1eaeNmfhg5mSw87SEwTtxIUA4UttySTAlADLcjZDNqJ8/edit?usp=sharing">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>shuffler robot</h3>
+                <p>the robot utilizes moving platforms to shuffle along the ground. It’s stronger than using wheels, but it contains far more friction</p>
+                <a href="https://docs.google.com/document/d/18QR4zerO4CZRT5p12uES1hk50D7VNpVSaXvjURP4sXo/edit?usp=sharing">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>codenest</h3>
+                <p>the purpose of the project was to be able to teach students about block programming, this course is intended for first-time programmers</p>
+                <a href="https://docs.google.com/document/d/1NXZo4DTaTKTJ1EUygiSLxXPXtI42cYwAA0zY-weNJuk/edit?usp=sharing">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>asd speedtest script</h3>
+                <p>speedtest Script for asd network (or any network), it was built specially for the american school of dubai wifi testing initative</p>
+                <a href="https://github.com/rohanverma2007/asd-speedtest">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>the student compass</h3>
+                <p>a book i co-authored, the purpose of the book was to give advice to students from high school teachers to try to ease the stress of moving to high school</p>
+                <a href="https://docs.google.com/document/d/1w23SP5KdlRJkgSH5LxG7Ug2C0R-H5LqVfvlSzIK9zsk/edit?usp=sharing">view →</a>
+            </div>
+
+            <div class="project">
+                <h3>the importance of open source panel</h3>
+                <p>i hosted a panel at the gin conference about the importance of open source to 60+ attendees over two sessions</p>
+                <a href="https://docs.google.com/presentation/d/1lI-2yRJbHOU5ck6XqpevFQkH6sd88u_LLRwt_LR2qMw/edit?usp=sharing">view →</a>
+            </div>
+        </section>
+        
+        <section id="titles">
+            <h2>// titles</h2>
+
+            <div class="titles">
+                <h3>global issues network (2025-2026)</h3>
+                <p>executive publicist</p>
+            </div>
+
+            <div class="titles">
+                <h3>tech 4 tomorrow (2024-2025)</h3>
+                <p>founder</p>
+            </div>
+
+           <div class="titles">
+                <h3>student it helpdesk (2025-2026)</h3>
+                <p>project lead</p>
+            </div>
+
+           <div class="titles">
+                <h3>jazz band (2024-2025)</h3>
+                <p>guitarist</p>
+            </div>
+
+            <div class="titles">
+                <h3>asd mun (2024-2025)</h3>
+                <p>delegate</p>
+            </div>
+        </section>
+
+        <section id="honors">
+            <h2>// honors</h2>
+
+            <div class="honors">
+                <h3>honor roll with distinction</h3>
+                <p>received from american school of dubai (2025)</p>
+            </div>
+
+            <div class="honors">
+                <h3>ap scholar award</h3>
+                <p>received from collegeboard (2025)</p>
+            </div>
+
+           <div class="honors">
+                <h3>award for academic excellency in english</h3>
+                <p>received from american school of dubai (2023)</p>
+            </div>
+
+           <div class="honors">
+                <h3>high honor roll</h3>
+                <p>received from american school of dubai (2024)</p>
+            </div>
+
+            <div class="honors">
+                <h3>bisecthosting gaming partnership</h3>
+                <p>received from bisecthosting (2023)</p>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>// about</h2>
+            <p style="color: #999; margin-bottom: 1rem;">
+                i build thoughtful digital experiences with a focus on simplicity and performance. 
+                currently working on web technologies and exploring the intersection of design and code.
+            </p>
+            <p style="color: #999;">
+                when i'm not coding, you'll find me playing guitar, tinkering with new tools, or with friends.
+            </p>
+        </section>
+
+        <footer id="contact">
+            <a href="mailto:rohan@rsap.sh">email</a>
+            <a href="https://github.com/rohanverma2007">github</a>
+            <a href="https://www.linkedin.com/in/rohan-verma-a9a342271/">linkedin</a>
+            <a href="https://www.youtube.com/@Reverm-p8k">youtube</a>
+            <a href="https://www.curseforge.com/members/reverm/projects">curseforge</a>
+            <a href="https://modrinth.com/user/TechSupportRed">modrinth</a>
+        </footer>
+    </div>
+</body>
+</html>
